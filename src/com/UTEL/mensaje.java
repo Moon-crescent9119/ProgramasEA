@@ -9,9 +9,9 @@ public class mensaje {
         return scn.nextLine();
     }
 
-    public void saludar(String nombre) {
+    public void saludar(Persona p) {
         //la cadena con formato %s reemplaza lo que tiene la variable nombre
-        System.out.printf("Hola %s, bienvenido a Java", nombre);
+        System.out.printf("Hola %s, bienvenido a Java", p);
     }
 }
 
