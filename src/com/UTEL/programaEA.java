@@ -2,8 +2,11 @@ package com.UTEL;
 
 public class programaEA {
     public static void main(String[] args) {
-        System.out.println("hola mundo");
+        mensaje msj= new mensaje();
+        String nombre = msj.solicitaDatos("Escribe tu nombre: ");
+        msj.saludar(nombre );
     }
 }
+
 
 
